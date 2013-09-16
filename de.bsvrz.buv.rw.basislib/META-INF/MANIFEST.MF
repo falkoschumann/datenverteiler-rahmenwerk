@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Basisbibliothek
+Bundle-SymbolicName: de.bsvrz.buv.rw.basislib
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Muspellheim.de
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

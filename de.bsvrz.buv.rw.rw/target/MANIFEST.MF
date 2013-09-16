@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Muspellheim.de
+Bundle-Version: 1.0.0.201309162154
+Bundle-Name: Rahmenwerk
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: de.bsvrz.buv.rw.rw
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+

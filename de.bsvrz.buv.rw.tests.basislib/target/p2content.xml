@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='de.bsvrz.buv.rw.tests.basislib' version='1.0.0.201309162154' singleton='false'>
+    <update id='de.bsvrz.buv.rw.tests.basislib' range='[0.0.0,1.0.0.201309162154)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Basisbibliothek Tests'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Muspellheim.de'/>
+      <property name='maven-groupId' value='de.bsvrz.buv'/>
+      <property name='maven-artifactId' value='de.bsvrz.buv.rw.tests.basislib'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='de.bsvrz.buv.rw.tests.basislib' version='1.0.0.201309162154'/>
+      <provided namespace='osgi.bundle' name='de.bsvrz.buv.rw.tests.basislib' version='1.0.0.201309162154'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='de.bsvrz.buv.rw.basislib' version='1.0.0.201309162154'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='de.bsvrz.buv.rw.basislib' range='[1.0.0,2.0.0)'/>
+      <required namespace='osgi.bundle' name='org.junit' range='[4.11.0,5.0.0)'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='de.bsvrz.buv.rw.tests.basislib' version='1.0.0.201309162154'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: de.bsvrz.buv.rw.tests.basislib&#xA;Bundle-Version: 1.0.0.201309162154&#xA;Fragment-Host: de.bsvrz.buv.rw.basislib;bundle-version=&quot;[1.0.0,2.0.0)&quot;&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
