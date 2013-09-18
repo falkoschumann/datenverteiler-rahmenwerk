@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.bsvrz.buv.rw.feature_1.0.0.qualifier.jar" id="de.bsvrz.buv.rw.feature" version="1.0.0.qualifier">
+   <feature url="features/de.bsvrz.buv.rw.feature_0.0.0.jar" id="de.bsvrz.buv.rw.feature" version="0.0.0">
       <category name="de.bsvrz.buv.rw"/>
    </feature>
+   <bundle id="de.bsvrz.buv.rw.basislib.source" version="0.0.0"/>
+   <bundle id="de.bsvrz.buv.rw.rw.source" version="0.0.0"/>
    <category-def name="de.bsvrz.buv.rw" label="Rahmenwerk"/>
 </site>
