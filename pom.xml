@@ -10,11 +10,11 @@
 	<name>BuV Rahmenwerk</name>
 
 	<modules>
-		<module>./de.bsvrz.buv.rw.basislib</module>
-		<module>./de.bsvrz.buv.rw.rw</module>
-		<module>./de.bsvrz.buv.rw.tests.basislib</module>
-		<module>./de.bsvrz.buv.rw.feature</module>
-		<module>./de.bsvrz.buv.rw.repository</module>
+		<module>de.bsvrz.buv.rw.basislib</module>
+		<module>de.bsvrz.buv.rw.rw</module>
+		<module>de.bsvrz.buv.rw.tests.basislib</module>
+		<module>de.bsvrz.buv.rw.feature</module>
+		<module>de.bsvrz.buv.rw.repository</module>
 	</modules>
 
 	<repositories>
